@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Encriptador/Desencriptador Alura</title>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="buttons.css">
+    </head>
+    <body>
+        <h1 id="textTitle">Encriptador Alura Challenge</h1>
+        <div class="card">
+            <div class="primScreen">
+                <label for="encryptedMessage">Escriba el texto:</label>
+                <input class="css-input" id="text" placeholder="Escriba en minusculas y sin signos especiales"/>
+                <label for="option">Opción:</label>
+                <select id="option" class="Selectbutton" >
+                    <option value="encript">Encriptar</option>
+                    <option value="decript">Desencriptar</option>
+                </select><br>
+                <button id="optionButton" class="button"><span class="button-content">Procesar</span></button>
+            </div>
+            <div class="resScreen">
+                <label>Resultado:</label>
+                <input id="result" type="text" class="css-input" placeholder="Mensaje Procesado">
+                <button id="myButton" class="button"><span class="button-content">Copiar</span></button>
+            </div>
+        </div>
+    </body>
+</html>

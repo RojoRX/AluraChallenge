@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Agregar un controlador de eventos para el evento 'input'
     input.addEventListener("input", function () {
         var inputValue = input.value;
-        var validInput = inputValue.replace(/[^a-z]/g, "");
+        var validInput = inputValue.toLowerCase().replace(/[^a-z]/g, "");
 
         // Actualizar el valor del campo de entrada con el contenido válido
         input.value = validInput;
